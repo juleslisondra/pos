@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import {resolve} from "path";
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  ssr: true,
+  devtools: { enabled: false },
+  ssr: false,
+
   alias: { 
     "@": resolve(__dirname, "/")
   },
